@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-x = np.linspace(0,2*np.pi,256)
+x = np.linspace(0,8*np.pi,512)
 y = np.sin(x)
 
 fig, ax = plt.subplots()
